@@ -1,107 +1,58 @@
-body {
-	font: 14px/1.5 Arial, Verdana, Helvetica, sans-serif;
-	color: #262626;
-	margin:0;
-	background: url(../images/white-cubes.png); 
-}
+@import url(reset.css);
 
-p {
-	text-indent: 15px;	
-}
 #header {
-	color: #c23636;
-	text-align: center;
-	margin: 0;
-	background-image: url(../images/logo.png);
-	background-repeat: no-repeat;
-	background-position: 450px 9px;
-}
-p span {
-	color: #d44a4a;
-	text-decoration: underline;
-}
-h2, h3 {
-	color: #243f7a;
-	text-align: center;
-}
-a {
-	color: #6190b8;
-}
-a:hover {
-	text-decoration: none;
-}
-ol {
-	list-style-type: upper-alpha;
-}
-ul {
-	list-style-image: url(../images/smiley.png);
-}
-
-#box {
-	border: 2px solid #2fd7eb;
-}
-
-#box2 {
-	border: 2px solid #2fd7eb;
-}
-
-#content {
-	width: 1450px;
-	border: 1px solid #c4c4c4;
-	padding: 30px 25px;
-	margin: 20px auto;
-	background-color: #fff;
-	position: relative;
-}
-
-table {
-	width: 650px;
-	border: 1px solid #dddfe1;
-	border-collapse: collapse;
-	color: #606060;
+	background: rgba(255, 255, 255, 0.06);
+	height: 73px;
+	width: 1278px;
 	margin: 0 auto;
 }
 
-td,th {
-	border: 1px solid #dddfe1;
-	height: 50px;
-	text-align: center;
+body {
+	background: #466368;
+	background: radial-gradient(#002e62, #000824);
+	font: 11px/1.5 Roboto, Verdana, Helvetica, sans-serif;
+	color: #fff;
+	background: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
 }
 
-.content_left {
-	text-align: left;
-	padding-left: 15px;
+a {
+	color: #fff;
+	text-decoration: none;
 }
 
-th {
-	background: #edeeee;
-	color: #9c9c9c;
+#logo {
+	width: 133px;
+	height: 19px;
+	padding: 28px 0 26px 120px;
+	float: left;
 }
 
-#YouTube {
+#menu {
 	float: right;
+	padding: 27px 0 30px 0;
+	margin-right: -60px; 
 }
 
-#free {
-	width: 100px;
-	height: 108px;
-	position: absolute;
-	top: 0;
-	right: 0;
+#menu ul li {
+	float: left;
+	margin-left: 25px;
+	margin-right: 20px;
 }
 
-#new {
-	transform: scaleX(-1);
-	position: absolute;
-	top: 0;
-	left: 0;
+.icon_menu {
+	padding-right: 6px;
 }
 
-#e_mail {
-	width: 225px;
-	height: 67px;
-	position: fixed;
-	left: 0;
-	top: 50%;
-	margin-top: -112px; 
+#icon_search {
+	margin-right: -3px;
+}
+
+#product {
+	width: 638px;
+	height: 585px;
+	background: url(../images/headphone.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
 }
